@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "patchName": "custom-double-tap-length",
+    "options": [
+      {
+        "key": "DoubleTapLengthArrays",
+      "value": [20,30,40,50,60]
+      }
+    ]
+  }
+]
