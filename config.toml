@@ -9,7 +9,6 @@ apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 rv-brand = "ReVanced Extended"
-apkmirror-arch = "arm64-v8a"
 build-mode = "both"
 version = "auto"
 included-patches = "add-splash-animation"
@@ -27,6 +26,5 @@ excluded-patches = "custom-branding-icon-revancify-blue custom-package-name enab
 
 [grecorder]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/google-recorder/"
-apkmirror-arch = "arm64-v8a"
 build-mode = "both"
 version = "auto"
