@@ -12,8 +12,8 @@ rv-brand = "ReVanced Extended"
 build-mode = "both"
 version = "auto"
 included-patches = "add-splash-animation"
-excluded-patches = "change-homepage custom-branding-youtube-name custom-branding-icon-revancify-blue custom-package-name default-video-quality default-video-speed disable-quic-protocol disable-hdr-video enable-old-quality-layout enable-wide-search-bar force-vp9-codec hide-cast-button hide-category-bar hide-time-stamp hide-trending-searches spoof-app-version translations"
-
+excluded-patches = "spoof-player-parameter change-homepage custom-branding-youtube-name custom-branding-icon-revancify-blue custom-package-name default-video-quality default-video-speed disable-quic-protocol disable-hdr-video enable-old-quality-layout enable-wide-search-bar force-vp9-codec hide-cast-button hide-category-bar hide-time-stamp hide-trending-searches spoof-app-version translations"
+# spoof-player-parameter: will only be needed with microg and will be automatically added
 [Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 patches-source = "inotia00/revanced-patches"
@@ -24,10 +24,11 @@ build-mode = "both"
 version = "auto"
 excluded-patches = "custom-branding-icon-revancify-blue custom-package-name enable-compact-dialog enable-old-style-miniplayer spoof-app-version translations"
 
-[grecorder]
-apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/google-recorder/"
-enabled = false
-apkmirror-arch = "arm64-v8a"
-apkmirror-dpi = "480-640dpi"
-build-mode = "both"
-version = "auto"
+#[grecorder]
+a
+#pkmirror-dlurl = "https://apkmirror.com/apk/google-inc/google-recorder/"
+#enabled = false
+#apkmirror-arch = "arm64-v8a"
+#apkmirror-dpi = "480-640dpi"
+#build-mode = "both"
+#version = "auto"
