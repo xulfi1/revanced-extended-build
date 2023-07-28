@@ -21,5 +21,5 @@ jobs:
           upstream_repo: ${{ env.UPSTREAM_URL }}
           upstream_branch: ${{ env.UPSTREAM_BRANCH }}
           downstream_branch: ${{ env.DOWNSTREAM_BRANCH }}
-          merge_args: "-allow-unrelated-histories"
+          merge_args: "--allow-unrelated-histories"
           token: ${{ env.WORKFLOW_TOKEN }}
